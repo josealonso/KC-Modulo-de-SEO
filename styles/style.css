@@ -432,9 +432,18 @@ footer {
 /******************* For the contact page **********************/
 
 .contact-container {
+	background-color: #005;
+	padding-top: 60px;
+	padding-bottom: 30px;
 	width: 80%;
 	margin: auto;
-	padding-top: 50px;
+	border-radius: 20px;
+}
+
+.contact-second-container {
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
 	padding-bottom: 50px;
 }
 
@@ -527,11 +536,26 @@ button[disabled] {
 }
 
 /******************* For the tasks page **********************/
+
+.tasks-container {
+	background-color: #005;
+	height: 730px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	width: 80%;
+	margin: auto;
+	border-radius: 20px;
+}
+
 .create-task-title {
 	padding-left: 50px;
 }
 .create-task-form {
 	padding-left: 30px;
+}
+
+.tasks-container > .h1-size {
+
 }
 
 .create-task-form > .new-task-button {
@@ -542,10 +566,9 @@ button[disabled] {
 	padding-left: 80px;
 }
 
-#task-container {
+.tasks-container > .task-item {
 }
-#task-container > .task-item {
-}
+
 .task-item > .delete-task-button {
 	margin: 5px 2px 5px 20px;
 }
