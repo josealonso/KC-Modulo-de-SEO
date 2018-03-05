@@ -1,0 +1,23 @@
+{
+  "name": "kc-modulo-de-html5_css3_y_js-para_mi_github-15agosto2017",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "json-server --watch --static ./ db.json --port 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josealonso/KC-Modulo-de-HTML5_CSS3_y_JS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josealonso/KC-Modulo-de-HTML5_CSS3_y_JS/issues"
+  },
+  "homepage": "https://github.com/josealonso/KC-Modulo-de-HTML5_CSS3_y_JS#readme",
+  "dependencies": {
+    "json-server": "^0.12.0"
+  }
+}
