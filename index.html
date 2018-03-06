@@ -39,10 +39,7 @@
                 <a href="#experience">Experience</a>
             </li>
             <li class="navbar-item">
-                <a href="#about-me">About me</a>
-            </li>
-            <li class="navbar-item">
-                <a href="contact.html">Contact</a>
+                <a href="#contact">Contact</a>
             </li>
         </ul>
     </nav>
@@ -200,31 +197,75 @@
 
             </section>
 
-            <section id="about-me" class="about-me-container clearfix">
+            <section id="contact">
                 <header>
-                    <h2 class="title">About me</h2>
+                    <h2 class="title">Contact</h2>
                 </header>
-                <div class="about-me-video">
-                    <!-- <video id="video" width="550" height="300" controls> -->
-                        <video id="video" controls>
-                        <source src="./video/SampleVideo.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="about-me-info">
-                    <span class="about-me-description">This is what I do every morning when I get up. 
-                        <p> Stretch and <strong>get ready to start programming !!</strong></p></span>
-                </div>
-            </section>
 
-            <section>
-                <div id="reach-me-subsection">
-                    <p>Ways you can reach me</p><br>
-                    <div class="reach-me-container">
+
+                <article class="row">
+                  <div class="col-6">
+                    <div class="form">
+                        <form name="contacto" method="get">
+                            <!-- novalidate> -->
+                            <div class="form-column">
+                                <label for="nombre">Name</label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Name" required>
+
+                                <label for="apellidos">Surname</label>
+                                <input type="text" id="apellidos" name="apellidos" placeholder="Surname" required>
+
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="name.surname@company.com" pattern="[A-Za-z0-9-_\.]+@[A-Za-z]+\.[A-Za-z]{2,4}"
+                                    required>
+                                <!-- It doesn't understand "\w"   -->
+
+                                <label for="phone">Phone number</label>
+                                <input type="number" id="phone" name="phone" pattern="([0-9]){9})">
+
+                            </div>
+
+                            <div class="form-column-how" "how">
+                                <div><strong>How did you hear about us</strong></div><br>
+
+                                <label for="Google-search">Google search</label>
+                                <input type="checkbox" id="Google-search" name="how_you_heard" value="google-search"><br>
+
+                                <label for="social-media"><span>Social media</span></label>
+                                <input type="checkbox" id="social-media" name="how_you_heard" value="social-media"><br>
+
+                                <label for="github">Github</label>
+                                <input type="checkbox" id="github" name="how_you_heard" value="github"><br>
+
+                                <label for="other">Other</label>
+                                <input type="checkbox" id="other" name="how_you_heard" value="other"><br>
+                            </div>
+
+                            <div id="text-area-class">
+                                <label for="textArea" class="text-area-label">Please, explain it:</label>
+                                <textarea id="text-area" name="text-area" rows="10" cols="50"> </textarea>
+                            </div>
+
+                            <div class="form-column">
+                                <button type="submit" id="enviar">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                  </div>
+                </article>
+
+
+                <article>
+                  <div id="reach-me-subsection">
+                      <p>Ways you can reach me</p><br>
+                      <div class="reach-me-container">
                         <div id='email-icon'><i class="fa fa-envelope fa-2x icon" aria-hidden="true"></i></div>
                         <div id='linkedin-icon'><i class="fa fa-linkedin-square fa-2x icon" aria-hidden="true"></i></div>
                         <div id='github-icon'><i class="fa fa-github fa-2x icon" aria-hidden="true"></i></div>
-                    </div>
-                </div>
+                      </div>
+                  </div>
+                </article>
+
             </section>
 
         </div>
@@ -241,8 +282,6 @@
 <script src="./js/menu.js"></script>
 
 <!-- <script src="./js/filters.js"></script>    CORS error !! -->
-<script src="./js/full-screen.js"></script>
-<!-- <script src="./js/jquery.gray.min.js"></script> -->
 
 </html>
 

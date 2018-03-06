@@ -17,7 +17,11 @@ main {
 	font-family: Verdana;
     font-size: 24px;
 	text-transform: uppercase;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
+
+/****************************************************************************************/
 
 @font-face {
 	font-family: batman;
@@ -231,7 +235,8 @@ header > .title-img {
 /************************ Education and Experience sections ****************************/
 
 #education,
-#experience {
+#experience 
+#contact {
 	display: flex;
 	flex-flow: column wrap;
 }
@@ -337,11 +342,6 @@ header > .title-img {
 	max-width: 40%;
 }
 
-.about-me-video video {
-	width: 100%;
-	height: 80%;
-}
-
 .about-me-container > .about-me-info {
 	float: right;
 	padding-right: 10%;
@@ -354,7 +354,7 @@ header > .title-img {
 /***************** Reach-me subsection **************/
 
 #reach-me-subsection {
-	border-radius: 0 0 10px 10px;
+	border-radius: 10px 10px; /*0 0 10px 10px;*/
 	padding-top: 10px;
 	padding-bottom: 15px;
 }
@@ -458,10 +458,6 @@ footer {
 	color: white;
 	font-size: smaller;
 	background-color: #05f;
-}
-
-#googleMap {
-	height: 400px;
 }
 
 .form {

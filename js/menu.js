@@ -87,7 +87,7 @@ var navbarItems = document.getElementsByClassName('navbar-item');
 var offsetSummary = acumulativeOffset(document.getElementById('summary')) - 50;
 var offsetEducation = acumulativeOffset(document.getElementById('education')) - 50;
 var offsetExperience = acumulativeOffset(document.getElementById('experience')) - 50;
-var offsetAboutMe = acumulativeOffset(document.getElementById('about-me')) - 50;
+var offsetAboutMe = acumulativeOffset(document.getElementById('contact')) - 50;
 
 function deleteActiveClass() {
     for (var i = 0; i < navbarItems.length; i++) {
@@ -137,7 +137,7 @@ function changeMenuStyle(event) {
         }
 
         deleteActiveClass();   // The active class is changed only if the mouse is in a different block
-        document.querySelector("a[href$='about-me']").parentNode.classList.add("active");
+        document.querySelector("a[href$='contact']").parentNode.classList.add("active");
     }    
 } 
 
