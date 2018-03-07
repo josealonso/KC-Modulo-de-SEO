@@ -234,6 +234,11 @@ header > .title-img {
 
 /************************ Education and Experience sections ****************************/
 
+.h3-SEO {    /* Not used */
+	color: darkblue;
+	padding-left: 15px;
+}
+
 #education,
 #experience #contact {
 	display: flex;
