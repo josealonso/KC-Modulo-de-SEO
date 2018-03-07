@@ -107,7 +107,7 @@ header > .title-img {
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url(../images/photo.jpg);
+	background-image: url(../images/photo_mini.jpg);
 	/* Photo compressed with tinybmp.com */
 	height: 100vh;
 	transition: background-size 0.5s;
@@ -131,7 +131,7 @@ header > .title-img {
 	font-family: batman;
 	border: 6px solid darkgreen;
 	z-index: 1;
-	animation: titleAnimation 4s forwards;
+	animation: titleAnimation 2s forwards;
 	animation-delay: 0.8s;
 	visibility: hidden;
 	background-color: none;
@@ -147,7 +147,7 @@ header > .title-img {
 	color: darkgreen;
 	font-family: batman;
 	opacity: 0;
-	animation: subtitleAnimation 4s forwards;
+	animation: subtitleAnimation 1s forwards;
 	animation-delay: 0s;
 }
 
