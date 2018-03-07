@@ -15,7 +15,7 @@ main {
 /************************************* For SEO ******************************************/
 .h1-size {
 	font-family: Verdana;
-    font-size: 24px;
+	font-size: 24px;
 	text-transform: uppercase;
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -235,8 +235,7 @@ header > .title-img {
 /************************ Education and Experience sections ****************************/
 
 #education,
-#experience 
-#contact {
+#experience #contact {
 	display: flex;
 	flex-flow: column wrap;
 }
@@ -512,6 +511,10 @@ button[disabled] {
 	margin-left: 250px;
 }
 
+#text-area {
+	color: black;
+}
+
 @keyframes flipIn {
 	0% {
 		transform: rotateX(90deg);
@@ -530,4 +533,3 @@ button[disabled] {
 .hide-textarea {
 	display: none;
 }
-
