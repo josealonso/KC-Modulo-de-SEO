@@ -429,7 +429,7 @@ footer {
 	background-color: #05f;
 }
 
-/******************* For the contact page **********************/
+/******************* For the contact tab **********************/
 
 .contact-container {
 	background-color: #005;
@@ -496,13 +496,13 @@ button {
 	border-radius: 4px;
 }
 
-.how > label {
+/*.how > label {
 	height: 30px;
 	width: 10px;
 	background-color: #b09090;
 	border: 1px solid grey;
 	display: inline-block;
-}
+} */
 
 button[disabled] {
 	opacity: 0.5;
